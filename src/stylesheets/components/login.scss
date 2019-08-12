@@ -1,0 +1,115 @@
+.logincontainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),url('../images/golfcourse.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  form {
+    width: 35%;
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.07);
+    text-transform: uppercase;
+    transition: all ease-in-out 200ms;
+    font-size: 1.2rem;
+    &:hover {
+       box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
+    }
+    .error {
+      text-align: center;
+      color: red
+    }
+    .btn-submit {
+       padding: .8rem;
+       background: #26a69a;
+       border: none;
+       color: var(--white);
+       outline: none;
+       margin-bottom: .2rem;
+       &:hover {
+         box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
+       }
+    }
+  }
+  .social__auth {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    .btn-submit {
+       padding: 1.5rem;
+       background: #26a69a;
+       border: none;
+       color: var(--white);
+       outline: none;
+       margin-bottom: .2rem;
+       margin-right: .3rem;
+       margin-top: .5rem;
+       &:hover {
+         box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
+       }
+
+    }
+  }
+}
+
+.signupcontainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),url('../images/golf.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  form {
+    width: 35%;
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.07);
+    text-transform: uppercase;
+    transition: all ease-in-out 200ms;
+    font-size: 1.2rem;
+    &:hover {
+       box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
+    }
+    .btn-submit {
+       padding: .8rem;
+       background: #26a69a;
+       border: none;
+       color: var(--white);
+       outline: none;
+       margin-bottom: .2rem;
+       &:hover {
+         box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
+       }
+    }
+  }
+}
+
+.social {
+  font-size: 1.2rem;
+}
+
+.google {
+  background-color: #DB4437 !important;
+}
+
+.facebook {
+  background-color: #3C5A99 !important;
+}

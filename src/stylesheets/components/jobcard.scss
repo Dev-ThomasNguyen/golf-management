@@ -1,0 +1,155 @@
+.job__board {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background:  linear-gradient(0deg,rgba(255,0,150,0.3),rgba(255,0,150,0.3)),url('../images/IMG_1518.PNG');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding-top: 2rem;
+  color: var(--white);
+  font-size: 1.3rem;
+  li a {
+    color: var(--white)
+  }
+}
+
+.jobcontainer {
+   padding: 2rem;
+   width: 80%;
+   margin: 0 auto;
+   text-align: center;
+   h1 {
+     margin-bottom: 1rem;
+     color: white;
+     font-size: 2.5rem;
+   }
+  a {
+    font-size: 1.1rem;
+    margin-right: 1rem;
+  }
+   table {
+     table-layout: fixed;
+     width: 100%;
+     border-collapse: collapse;
+     border-radius: 1.5rem;
+     margin-top: 1.2rem;
+   }
+
+   thead th:nth-child(1) {
+      width: 30%; 
+   }
+
+   thead th:nth-child(2) {
+     width: 20%;  
+   }
+
+   thead th:nth-child(3) {
+     width: 15%;  
+   }
+
+   thead th:nth-child(4) {
+     width: 35%;  
+   }
+
+   th, td {
+     padding: 20px;  
+   }
+
+   th {
+     letter-spacing: 2px;     
+   }
+
+   td {
+      letter-spacing: 1px;
+      font-size: 1.1rem;
+      a {
+        color: blue;
+      }
+   }
+   table {
+       background-color: #fff;
+       font-size: 1.2rem;
+       margin-bottom: 1.2rem;
+       color: black;
+   }
+
+   tbody td {
+      text-align: center; 
+   }
+
+   thead {
+       color: black;
+   }
+
+   thead th {
+       background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+       border: 3px solid black;     
+       text-transform: uppercase;
+   }
+
+  
+   .tablecontainer {
+     width: 40%;
+     background-color: #fff;
+   }
+}
+
+.spray-color {
+  width: 40%;
+  margin: 0 auto;
+  background-color: var(--white);
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: .5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.07);
+  transition: all ease-in-out 200ms;
+  font-size: 1rem;
+  color: black;
+  h1 {
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    text-decoration: underline;
+  }
+  h2 {
+    font-size: 1.0rem;
+    color: black;
+    text-transform: uppercase;
+  }
+}
+.cardcontainer {
+  width: 40%;
+  margin: 0 auto;
+  background-color: var(--white);
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: .5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.07);
+  text-transform: uppercase;
+  transition: all ease-in-out 200ms;
+  font-size: 1.2rem;
+   .btn-submit {
+       font-size: 1.1rem;
+       padding: .8rem;
+       background: #26a69a;
+       border: none;
+       color: var(--white);
+       outline: none;
+       margin-bottom: .2rem;
+       &:hover {
+         box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
+       }
+    }
+
+}
+
+.select {
+  width: 20rem;
+  height: 2rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
